@@ -11,7 +11,6 @@ client.connect()
 client.query('SELECT VERSION();', (err, res) => {
 	client.end();
 	version =  res.rows;
-	console.log(version);
 })
 
 router.get('/', function(req, res, next) {

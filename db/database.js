@@ -9,9 +9,9 @@ const pool = new Pool({
 })
 
 
-//  const client = new Client({
-//    connectionString,
-// })
-//  client.connect()
+ const client = new Client({
+   connectionString,
+})
+ client.connect()
 
 module.exports = pool;
